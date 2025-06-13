@@ -39,5 +39,5 @@ This project is an end-to-end data analytics pipeline designed to extract insigh
 - Specific crops perform better in certain regions and soil types
 - Effects of irrigation and fertilizer on crop yield
 
-See attached PDF for dashboard visuals and explanation.
+[Click here to view the dashboard (PDF)](dashboard.pdf)
 
