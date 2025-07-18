@@ -4,10 +4,11 @@ This project is an end-to-end data analytics pipeline designed to extract insigh
 
 ## Tech Stack
 
-- **Python (pandas)** – Data cleaning and aggregation
-- **MySQL** – Database for storing raw and aggregated data
-- **Power BI** – Business intelligence dashboard for exploration and insights
-- **SQLAlchemy / Power Query** – Data connectors between Python, SQL, and Power BI
+- **Python (pandas)** 
+- **MySQL** 
+- **Power BI** 
+- **SQLAlchemy / Power Query** 
+- **Dagster
 
 ## Workflow Overview
 
@@ -31,7 +32,11 @@ This project is an end-to-end data analytics pipeline designed to extract insigh
      - Bar and column charts (by crop, soil, weather)
      - Pie charts
      - Slicers for filtering (Weather)
-     - Raw CSV used for trend lines and scatter plots
+     - Raw CSV used for trend lines and scatter plots  
+4. **Optional orchestration via Dagster** 
+     -modular jobs (clean/load/transform/extract)
+     -sensors (checks for new files)
+     -schedules (runs weekly)
 
 ## Example Insights
 
