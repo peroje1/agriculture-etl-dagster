@@ -1,6 +1,6 @@
 # Agricultural Etl Pipeline with Dagster
 
-An end-to-end data analytics pipeline designed to extract insights from large-scale crop yield data. This project combines Python-based data engineering, MySQL storage, and interactive Power BI visualizations.
+An end-to-end data analytics pipeline designed to extract insights from large-scale crop yield data. This project combines Python-based data engineering, MySQL storage, interactive Power BI visualizations and etl orchestration via Dagster.
 
 ## Tech Stack
 
